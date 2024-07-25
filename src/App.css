@@ -1,0 +1,26 @@
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.dropdowns {
+  margin: 20px auto;
+  width: 80%;
+}
+
+.parameter-field {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
