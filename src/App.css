@@ -1,26 +1,61 @@
-.app-container {
-  padding: 20px;
+.App {
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-.dropdowns {
-  margin: 20px auto;
-  width: 80%;
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
 }
 
-.parameter-field {
+.App-main {
+  padding: 20px;
+}
+
+.App-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.select-dropdown {
+  width: 100%;
+  max-width: 400px;
   margin: 10px 0;
 }
 
-button {
-  padding: 10px 20px;
+.variable-dropdown {
+  margin: 10px 0;
+}
+
+.parameter-input {
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-button {
   background-color: #007bff;
   color: white;
   border: none;
-  border-radius: 5px;
+  padding: 10px 20px;
+  border-radius: 4px;
   cursor: pointer;
+  font-size: 16px;
 }
 
-button:disabled {
-  background-color: #ccc;
+.submit-button:hover {
+  background-color: #0056b3;
 }
